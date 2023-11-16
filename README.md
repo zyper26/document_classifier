@@ -36,7 +36,7 @@
 2. Here we have only worked on image classification (reason being all the form are structured). We can also try to extract the text using tesseract and use text classification on it but due to lack of data I think we will not able to achieve good accuracy. 
    ```
    import pytesseract
-   ocrd_text = pytesseract.image_to_string(Image.open('image.jpg'))
+   ocrd_text = pytesseract.image_to_string(Image.open('sample_image.jpg'))
    ```
 3. Instead of cross entropy loss we should use focal loss.
 4. Lot of experimentation needs to be done to check which model would give us better accuracy.
