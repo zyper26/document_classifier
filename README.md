@@ -7,6 +7,14 @@
 3. Converted the pdfs 1st page to images.
 4. Labelled each image using [Robot VGG tool](https://www.robots.ox.ac.uk/~vgg/software/via/via.html). Code file for this used is ```data_labeling.ipynb```
 
+### Train
+
+1. Keep the data in labelled_data folder. I have demonstrated 3 classes only but we have 9 classes overall in labelled_data
+  - **labelled_data:**
+     - `Form_D/`
+     - `Form_6-K/`
+     - `Other/`
+2. Run ```main.py```. Here I have not created the environment file yet so you can use pytorch environment to train the model. 
 
 ### Dataset 
 
@@ -25,5 +33,5 @@
    import pytesseract
    ocrd_text = pytesseract.image_to_string(Image.open('image.jpg'))
    ```
-
-   
+3. Instead of cross entropy loss we should use focal loss.
+4. Lot of experimentation needs to be done to check which model would give us better accuracy.
