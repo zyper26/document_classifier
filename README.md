@@ -40,3 +40,4 @@
    ```
 3. Instead of cross entropy loss we should use focal loss.
 4. Lot of experimentation needs to be done to check which model would give us better accuracy.
+5. Clustering method can also used to identify the form type.
