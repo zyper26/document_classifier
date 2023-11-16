@@ -19,7 +19,7 @@
 ### Dataset 
 
 
-  ![Dataset](https://github.com/zyper26/document_classifier/blob/main/dataset_classes.png)
+   ![Dataset](https://raw.githubusercontent.com/zyper26/document_classifier/main/dataset_classes.png)
 
 
 ### Evaluation Metrics
