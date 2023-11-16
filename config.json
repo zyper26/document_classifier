@@ -1,0 +1,11 @@
+{
+    "batch_size": 8,
+    "data_path": "./labelled_data",
+    "architecture": "",
+    "validation_split": ".2",
+    "shuffle_dataset": true,
+    "random_seed": 42,
+    "train_size": 0.9,
+    "learning_rate": 1e-4,
+    "epochs": 50
+}
