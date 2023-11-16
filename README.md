@@ -1,4 +1,4 @@
-# document_classifier
+# Document Classifier
 
 ### How I created the dataset
 
