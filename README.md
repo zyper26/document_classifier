@@ -18,12 +18,16 @@
 
 ### Dataset 
 
-
+![Dataset](dataset_classes.png)
 
 
 ### Evaluation Metrics
 
-1. Here we used accuracy as the metrics. However, better approach would have been to use f1-score rather than accuracy as we have imbalanced dataset.
+1. Here we used accuracy as the metrics. However, better approach would have been to use f1-score rather than accuracy as we have imbalanced dataset. Below you can see the accuracy (only represented with tqdm bar):
+
+   ![Train data valuation](model_svaing.png)
+
+
 
 ### Future Works
 
